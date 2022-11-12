@@ -1,4 +1,4 @@
-package Gun01;
+package Gun01_Annotation_Assertion;
 
 import Utility.Tools;
 import org.openqa.selenium.WebDriver;
