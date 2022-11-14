@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit"> <!--Tum testleri kapsayan bolum  -->
+
+    <test name="test1"> <!--test 1 i kapsayan bolum  -->
+        <classes>    <!--calisacak class larin yazildigi bolum  -->
+            <class name="Gun03_XML._01_Intro"></class>
+            <class name="Gun03_XML._02_Intro"></class>
+        </classes>
+    </test>
+
+    <test name="test2"> <!--test 2 i kapsayan bolum  -->
+        <classes>    <!--calisacak class larin yazildigi bolum  -->
+            <class name="Gun03_XML._01_Intro"></class>
+            <class name="Gun03_XML._02_Intro"></class>
+        </classes>
+    </test>
+
+</suite>
