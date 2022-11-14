@@ -1,4 +1,4 @@
-package Gun02;
+package Gun02_Dependency;
 
 import Utility.BaseDriver;
 import Utility.Tools;

@@ -1,4 +1,4 @@
-package Gun02;
+package Gun02_Dependency;
 /*
   Senaryo
   1- Siteyi açınız.

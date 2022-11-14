@@ -1,6 +1,5 @@
-package Gun02;
+package Gun02_Dependency;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class _03_Dependency {
