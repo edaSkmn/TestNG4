@@ -17,7 +17,7 @@ import java.util.List;
 
 public class _02_ValidateMenu extends BaseDriver {
 
-    @Test
+    @Test(groups="SmokeTest")
     void menuValidation() {
 
         List<WebElement> menuActualList = driver.findElements(By.cssSelector("[class='nav navbar-nav'] > li")); // olan listeyi getirdik

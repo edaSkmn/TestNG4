@@ -1,0 +1,14 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit"> <!--Tum testleri kapsayan bolum  -->
+
+    <test name="test1">
+        <parameter name="aranacakKelime" value="mac"></parameter>
+        <parameter name="browser" value="firefox"></parameter>
+
+        <classes>
+            <class name="Gun04._04_SearchFunctionalityParametreDriver"></class>
+        </classes>
+    </test>
+
+</suite>

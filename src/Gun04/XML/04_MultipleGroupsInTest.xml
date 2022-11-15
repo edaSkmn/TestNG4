@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit"> <!--Tum testleri kapsayan bolum  -->
+
+    <test name="test1">
+        <groups>
+            <run>
+                <include name="SmokeTest"></include>
+            </run>
+        </groups>
+
+        <!-- calisacak classlarin yazildigi bolum -->
+        <classes>
+            <class name="Gun04._01_Groups"></class>
+        </classes>
+    </test>
+
+    <test name="test2">
+        <groups>
+            <run>
+                <include name="Regresion"></include>
+            </run>
+        </groups>
+
+        <!-- calisacak classlarin yazildigi bolum -->
+        <classes>
+            <class name="Gun04._01_Groups"></class>
+        </classes>
+    </test>
+
+</suite>

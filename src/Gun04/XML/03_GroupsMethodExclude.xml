@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit"> <!--Tum testleri kapsayan bolum  -->
+
+    <test name="test1">
+        <!-- hangi gruplar calistirilacak -->
+        <groups>
+            <run>
+                <include name="SmokeTest"></include>
+            </run>
+        </groups>
+
+        <!-- calisacak classlarin yazildigi bolum -->
+        <classes>
+            <class name="Gun04._01_Groups">
+           <methods> <!-- haric olacak metodlar -->
+                <exclude name="Test4"></exclude>
+           </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
