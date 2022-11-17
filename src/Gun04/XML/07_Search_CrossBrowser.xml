@@ -1,6 +1,6 @@
 
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suit"> <!--Tum testleri kapsayan bolum  -->
+<suite name="Suit" parallel="tests" thread-count="2">
 
     <test name="test1">
         <parameter name="aranacakKelime" value="mac"></parameter>
